@@ -32,7 +32,8 @@ Our table should now look like this:
 
 # Step 2 - Transactions In & Out
 We now need to split the transactions into incomings and outgoings.
-For this we want to create two separate branches Incoming Transactions where we remove the Account From field And Outgoing Transactions where we remove the Account To field and also make the values negative by multiplying by -1.
+For this we want to create two separate branches Incoming Transactions where we remove the Account From field And Outgoing Transactions where we remove the Account To field and also make the values negative by multiplying by -1
+Then we aggregate both at the level of (Account And Date).
 
 ![5Aggregated From Value](https://github.com/MohamedAtef3155/Customer-Bank-Statement/assets/126327548/1c0a8788-2cd0-4e53-8b40-bbdc00e8a36c)
 
