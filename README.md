@@ -40,6 +40,8 @@ Then we aggregate both at the level of (Account And Date).
 Then we union both Tables so we have 3 columns (Account - Transaction Value - Transaction Date )
 
 
+
+
 # Step 3 - Prepare the Account_information Table
 
 I Just did some cleaning and removed unwanted columns.
