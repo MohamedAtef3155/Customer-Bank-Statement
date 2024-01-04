@@ -6,7 +6,7 @@ ETL Project using Tableau prep
 we have three tables: Transactions Details, Transactions Path And Account Information:
 ![10Input](https://github.com/MohamedAtef3155/Customer-Bank-Statement/assets/126327548/9f803dd7-58bf-4e72-9eb1-cd494be98fb5)
 
-We want to create table that track customer transactions and balance after (Customer Bank Statment).
+We want to create table that tracks customer transactions and balance after (Customer Bank Statment).
 
 Output should look like this:
 
