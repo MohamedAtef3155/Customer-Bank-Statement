@@ -3,12 +3,17 @@ ETL Project using Tableau prep
 
 
 # Requirements
+we have three tables: Transactions Details, Transactions Path And Account Information:
+![10Input](https://github.com/MohamedAtef3155/Customer-Bank-Statement/assets/126327548/9f803dd7-58bf-4e72-9eb1-cd494be98fb5)
 
-![1Requirements](https://github.com/MohamedAtef3155/Customer-Bank-Statement/assets/126327548/85d625e8-0edc-4415-8296-eb3db6a17de8)
+We want to create table that track customer transactions and balance after (Customer Bank Statment).
 
-![2Requirements](https://github.com/MohamedAtef3155/Customer-Bank-Statement/assets/126327548/6c534422-5e1e-40cd-ad8f-643e7db37d73)
+Output should look like this:
 
-# Project overview
+![11Output](https://github.com/MohamedAtef3155/Customer-Bank-Statement/assets/126327548/8c26b50a-eeca-45d6-a9eb-931a3d8379a1)
+
+
+# Project Overview
 
 ![3Full Flow](https://github.com/MohamedAtef3155/Customer-Bank-Statement/assets/126327548/ed98818a-de46-4645-982c-e5372b194ff4)
 
@@ -41,23 +46,23 @@ Table now looks like this:
 
 ![6Account Information Table](https://github.com/MohamedAtef3155/Customer-Bank-Statement/assets/126327548/939db311-af0b-4a67-b00c-dcafff26912f)
 
-# Step 4 - Union Both Tables (Transactions & Account )
+# Step 4 - Union (Transactions & Account )
 
 ![7Account and Transactions](https://github.com/MohamedAtef3155/Customer-Bank-Statement/assets/126327548/6fea6046-a980-452d-b07e-567feb25c9b1)
 
 
-# Step 5 -  Creating calculated field and cleaning Data for output extraction
+# Step 5 -  Creating Calculated Field and Cleaning Data for Output Extraction
 
 Since we have Income transaction as "+", outgoing transactions as "-" and we already have customers starting balance
-All I need is to create running sum column for each customer (partition)
+All I need is to create running sum column for each customer (partition):
 
 ![8Calculated Field balance after Transactions](https://github.com/MohamedAtef3155/Customer-Bank-Statement/assets/126327548/2a10759a-d339-448f-a7c1-69ca7d6af22d)
 
-final table looks like this (image filtered on account number 10011977):
+Final table looks like this (image filtered on account number 10011977):
 
 ![9Final Table](https://github.com/MohamedAtef3155/Customer-Bank-Statement/assets/126327548/83e81927-3835-44ee-98c2-afc7a886b8ce)
 
-Finnaly we can easily track our customer balance and transactions!
+Finally we can easily track our customer balance and transactions!
 
 
 
